@@ -67,3 +67,9 @@ This repository contains the content for the Vuetify-Flask-GoogleLogin Template 
 
 - The .md document files are included in the Help section of the application.
 - They contain an outer skeleton and can be expanded as required.
+
+## Release Management
+
+- git tags can be used to manage releases but this is not fully functional and requires tweaks.
+- Create a release using `git tag v00.00.02` followed by `git push origin --tags`
+- The available releases are visible on the Administration -> "Server Health" page.
