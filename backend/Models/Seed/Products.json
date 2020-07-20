@@ -1,0 +1,107 @@
+[
+    {
+      "name": "LEE",
+      "schema": "vqaa",
+      "table": "fact_hdd_mfgops_9000"
+    },
+    {
+      "name": "LHA",
+      "schema": "vqaa",
+      "table": "fact_hdd_mfgops_9000"
+    },
+    {
+      "name": "LHC",
+      "schema": "vqaa",
+      "table": "fact_hdd_mfgops_9000"
+    },
+    {
+      "name": "LSE",
+      "schema": "vqaa",
+      "table": "fact_hdd_mfgops_9000"
+    },
+    {
+      "name": "PCM",
+      "schema": "vqaa",
+      "table": "fact_hdd_mfgops_9000"
+    },
+    {
+      "name": "VL6",
+      "schema": "vqaa",
+      "table": "fact_hdd_mfgops_9000"
+    },
+    {
+      "name": "VL8",
+      "schema": "vqaa",
+      "table": "fact_hdd_mfgops_9000"
+    },
+    {
+      "name": "VLA",
+      "schema": "vqaa",
+      "table": "fact_hdd_mfgops_9000"
+    },
+    {
+      "name": "ACA",
+      "schema": "e2e_legacy",
+      "table": "hdd_mfg_9000"
+    },
+    {
+      "name": "APK",
+      "schema": "e2e_legacy",
+      "table": "hdd_mfg_9000"
+    },
+    {
+      "name": "AR6",
+      "schema": "e2e_legacy",
+      "table": "hdd_mfg_9000"
+    },
+    {
+      "name": "AR8",
+      "schema": "e2e_legacy",
+      "table": "hdd_mfg_9000"
+    },
+    {
+      "name": "CBE",
+      "schema": "e2e_legacy",
+      "table": "hdd_mfg_9000"
+    },
+    {
+      "name": "CBF",
+      "schema": "e2e_legacy",
+      "table": "hdd_mfg_9000"
+    },
+    {
+      "name": "CEP",
+      "schema": "e2e_legacy",
+      "table": "hdd_mfg_9000"
+    },
+    {
+      "name": "JGB",
+      "schema": "e2e_legacy",
+      "table": "hdd_mfg_9000"
+    },
+    {
+      "name": "JGC",
+      "schema": "e2e_legacy",
+      "table": "hdd_mfg_9000"
+    },
+    {
+      "name": "KCF",
+      "schema": "e2e_legacy",
+      "table": "hdd_mfg_9000"
+    },
+    {
+      "name": "RB7",
+      "schema": "e2e_legacy",
+      "table": "hdd_mfg_9000"
+    },
+    {
+      "name": "RC7",
+      "schema": "e2e_legacy",
+      "table": "hdd_mfg_9000"
+    },
+    {
+      "name": "SHW",
+      "schema": "e2e_legacy",
+      "table": "hdd_mfg_9000"
+    }
+  ]

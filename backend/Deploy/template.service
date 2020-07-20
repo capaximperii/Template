@@ -1,0 +1,24 @@
+[Unit]
+Description=Template Vuetify-Flask-Google Login
+DefaultDependencies=no
+After=network.target
+
+[Service]
+Type=simple
+User=linuxuser
+Group=linuxuser
+WorkingDirectory=/srv/Template/backend
+ExecStart=/usr/bin/python3 /srv/Template/backend/app.py
+TimeoutStartSec=10
+RemainAfterExit=no
+Environment=FLASK_CONFIG=production
+Environment="PATH=/usr/local/bin:/bin:/sbin:/usr/bin:$PATH"
+Restart=always
+RestartSec=10
+
+[Install]
+# sudo -H pip3 install -r requirements.txt
+# cp drivegym.service /etc/systemd/system
+# systemctl enable drivegym.service
+# journalctl -u drivegym.service
+WantedBy=default.target
