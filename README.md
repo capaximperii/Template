@@ -2,7 +2,7 @@
 
 # Introduction
 
-This repository contains the content for the Template project.
+This repository contains the content for the Vuetify-Flask-GoogleLogin Template project.
 - Flask as backend
 - Vue + Vuetify + Vuex as frontend
 - Google Login as oauth authentication
@@ -61,3 +61,9 @@ This repository contains the content for the Template project.
 - Frontend to be built using `npm run build` which copies the built files to `backend/Ui`
 - Backend run in production mode using `FLASK_ENV=production python app.py`
 - Deploy as a systemd service by modifying the `backend/Deploy/template.service` file
+
+
+## Documents
+
+- The .md document files are included in the Help section of the application.
+- They contain an outer skeleton and can be expanded as required.
