@@ -26,7 +26,7 @@ class ProductionConfig(Config):
 
 
 class DevelopmentConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///Data/statmatch.db?check_same_thread=False&timeout=5'
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///Data/template.db?check_same_thread=False&timeout=5'
 
 class TestingConfig(Config):
     TESTING = True

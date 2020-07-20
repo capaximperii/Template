@@ -27,6 +27,7 @@ This repository contains the content for the Vuetify-Flask-GoogleLogin Template 
 - Install frontend dependencies
     `cd frontend`
     `npm install`
+- Review application page title in the files `frontent/.env.development` and `frontent/.env.production`
 - Run the development server
     `npm run serve`
 - Navigate to the UI using the [browser](http://localhost:8080)
