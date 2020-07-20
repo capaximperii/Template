@@ -18,7 +18,7 @@ def initialize(appl):
     manager.add_command('db', MigrateCommand)
     if 'flask db' in ' '.join(sys.argv): return
     with appl.app_context():
-        db.create_all()
+        # db.create_all() # Use flask db upgrade instead.
         ResetOrSeedDb('Models/Seed/Products.json', ProductsSchema(many=True), [ ProductsModel ])
         # Abort all running and Queued tasks.
         # https://stackoverflow.com/questions/49794899/why-is-my-flask-sqlalchemy-delete-query-failing

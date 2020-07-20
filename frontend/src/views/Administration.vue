@@ -60,11 +60,11 @@ export default {
     ],
     crumbs: [
       {
-        text: "Dashboard",
+        text: "Home",
         exact: true,
         disabled: false,
         to: {
-          name: "Dashboard"
+          name: "Home"
         }
       },
       {
