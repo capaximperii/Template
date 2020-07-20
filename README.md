@@ -36,9 +36,10 @@ This repository contains the content for the Template project.
 ## Database Migration
 
 - Database migrations are handled implicitly using Flask-Migrate.
-- For a Model change, generate the migration script using `flask db migrate -m "Added columns for job creation."`
+- Before first run, create your initial migrations using `flask db migrate -m "Initial db.`
+- To apply the changes or create db before first run `flask db upgrade`
+- For subsequent Model change, generate the migration script using `flask db migrate -m "Added columns for job creation."`
 - Flask-Migrate cannot detect all changes and requires manual review of scripts generated but works for the common cases out of the box.
-- To apply the changes run `flask db upgrade`
 - The migration scripts are in the folder `Models/Migrations`
 
 
@@ -54,3 +55,9 @@ This repository contains the content for the Template project.
 - in `WorkerRef.py` add a reference to this new worker py file in conf imports next to `StmWorker.py`
 - Change the number of Worker processes launched from `Workers/__init.py`
 - Celery uses file system broker. Change the configuration to use redis - rabbitmq
+
+## Deployment
+
+- Frontend to be built using `npm run build` which copies the built files to `backend/Ui`
+- Backend run in production mode using `FLASK_ENV=production python app.py`
+- Deploy as a systemd service by modifying the `backend/Deploy/template.service` file

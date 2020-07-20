@@ -11,7 +11,7 @@ WorkingDirectory=/srv/Template/backend
 ExecStart=/usr/bin/python3 /srv/Template/backend/app.py
 TimeoutStartSec=10
 RemainAfterExit=no
-Environment=FLASK_CONFIG=production
+Environment=FLASK_ENV=production
 Environment="PATH=/usr/local/bin:/bin:/sbin:/usr/bin:$PATH"
 Restart=always
 RestartSec=10
