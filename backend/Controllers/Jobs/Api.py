@@ -16,7 +16,7 @@ class JobsListController(Resource):
         column = params.pop('column', 'id')
         if column in ['id', 'created', 'updated']: column = f'Jobs.{column}'
         order = params.pop('order', 'desc')
-        jobs = JobsModel.query.filter(
+        jobs = JobsModel.join(UsersModel).query.filter(
                 or_(
                     JobsModel.status.ilike(search),
                     JobsModel.job_title.ilike(search),

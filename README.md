@@ -43,6 +43,11 @@ This repository contains the content for the Vuetify-Flask-GoogleLogin Template 
 - Flask-Migrate cannot detect all changes and requires manual review of scripts generated but works for the common cases out of the box.
 - The migration scripts are in the folder `Models/Migrations`
 
+## Data Seeding
+
+- `backend/Models/Seed/Products.json` is an example seed file that fills in the Products table.
+- The Seed table keeps a track of changes to this file and seeds data every time a change is detected.
+- Data seeding is explicitly called in `backend/Models/__init__.py`
 
 ## Authentication Setup
 
