@@ -37,7 +37,8 @@ This repository contains the content for the Vuetify-Flask-GoogleLogin Template 
 ## Database Migration
 
 - Database migrations are handled implicitly using Flask-Migrate.
-- Before first run, create your initial migrations using `flask db migrate -m "Initial db.`
+- Before first run, create your initial migrations using `flask db init`
+- After init, create the first migration with `flask db migrate -m "Initial migration."`
 - To apply the changes or create db before first run `flask db upgrade`
 - For subsequent Model change, generate the migration script using `flask db migrate -m "Added columns for job creation."`
 - Flask-Migrate cannot detect all changes and requires manual review of scripts generated but works for the common cases out of the box.

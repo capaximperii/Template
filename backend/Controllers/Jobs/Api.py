@@ -16,7 +16,7 @@ class JobsListController(Resource):
         column = params.pop('column', 'id')
         if column in ['id', 'created', 'updated']: column = f'Jobs.{column}'
         order = params.pop('order', 'desc')
-        jobs = JobsModel.join(UsersModel).query.filter(
+        jobs = JobsModel.query.filter(
                 or_(
                     JobsModel.status.ilike(search),
                     JobsModel.job_title.ilike(search),
@@ -33,7 +33,7 @@ class JobsListController(Resource):
     def post(self):
         schema = JobsSchema(many=False)
         job = schema.load(request.json)
-        job.user_id = current_user.id
+        job.user_email = current_user.email
         job.insert()
         token = request.headers.get('Authorization')
         executor.submit(job, token)
