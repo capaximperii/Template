@@ -19,7 +19,7 @@ Python-Box==4.2.2
 PyJWT==1.7.1
 PyOdbc==4.0.30
 PsUtil==5.7.2
-PyWin32==223
+PyWin32==301
 Requests==2.23.0
 Waitress==1.4.4
 Xlwt==1.3.0
