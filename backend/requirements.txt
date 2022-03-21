@@ -21,6 +21,6 @@ PyOdbc==4.0.30
 PsUtil==5.7.2
 PyWin32==223
 Requests==2.23.0
-Waitress==1.4.4
+Waitress==2.1.1
 Xlwt==1.3.0
 Xlrd==1.2.0
