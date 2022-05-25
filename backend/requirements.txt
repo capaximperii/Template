@@ -16,7 +16,7 @@ Marshmallow-Enum==1.5.1
 Marshmallow-Sqlalchemy==0.22.3
 Pandas==1.0.3
 Python-Box==4.2.2
-PyJWT==1.7.1
+PyJWT==2.4.0
 PyOdbc==4.0.30
 PsUtil==5.7.2
 PyWin32==223
