@@ -1,6 +1,6 @@
 Celery==4.4.6
 Click==7.0
-Cryptography==2.9.2
+Cryptography==39.0.1
 Flask==1.1.2
 Flask-Cors==3.0.8
 Flask-Gzip==0.2
